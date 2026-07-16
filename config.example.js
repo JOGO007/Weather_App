@@ -1,0 +1,1 @@
+const APIKey = 'TU_API_KEY_DE_OPENWEATHERMAP';

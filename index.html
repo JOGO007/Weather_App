@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Weather App - By JOGO</title>
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">🌙</button>
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot" role="button" tabindex="0" title="Usar mi ubicación" aria-label="Usar mi ubicación"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Oops! Invalid location</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+            <p class="date-time"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span>
+                        <p>Humidity</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span>
+                        <p>Wind Speed</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
